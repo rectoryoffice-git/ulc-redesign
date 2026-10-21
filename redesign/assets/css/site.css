@@ -924,3 +924,8 @@ ul.checklist li::before { content: ""; width: 24px; height: 24px; border-radius:
 /* header glow stays inside the header */
 .site-header { overflow: clip; }
 .site-header::after { bottom: 0; }
+
+/* v22: four verified ministers (Colbert removed: his reported ordination was with another ministry) */
+.celeb-row { grid-template-columns: repeat(4, 1fr); max-width: 980px; margin-left: auto; margin-right: auto; }
+@media (max-width: 900px) { .celeb-row { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px) { .celeb-row .celeb:last-child { grid-column: auto; } }
