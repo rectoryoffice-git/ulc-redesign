@@ -322,3 +322,5 @@ section { padding: 88px 0; }
 
 /* phone header: keep buttons and brand on one line */
 .btn { white-space: nowrap; }
+
+[hidden] { display: none !important; }

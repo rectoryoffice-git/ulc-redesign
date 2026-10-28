@@ -952,3 +952,6 @@ ul.checklist li::before { content: ""; width: 24px; height: 24px; border-radius:
 html { background: #071338; }
 @view-transition { navigation: auto; }
 ::view-transition-old(root), ::view-transition-new(root) { animation-duration: .32s; animation-timing-function: ease; }
+
+/* v24: honor the hidden attribute (store filters) */
+[hidden] { display: none !important; }

@@ -332,3 +332,5 @@ section { padding: 92px 0; }
 .btn { white-space: nowrap; }
 @media (max-width: 760px) { .brand-txt b { font-size: 1rem; white-space: nowrap; } }
 @media (max-width: 480px) { .site-header .btn { display: none; } }
+
+[hidden] { display: none !important; }
